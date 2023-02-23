@@ -7,7 +7,7 @@ h1{
 table{
     margin-top: 50px;
     border: solid black 5px;
-    width: 800px;
+    width: 850px;
     border-collapse: collapse;
 }
 .tablee{
@@ -25,7 +25,8 @@ th{
     height: 50px;
 }
 .teacher{
-    font-size: small;
+    font-size: 10px;
+    margin-bottom: 0;
     
 }
 th:hover, td:hover{
@@ -33,6 +34,14 @@ th:hover, td:hover{
 }
 .room{
     font-size: 10px;
-    margin: 0 0;
-    text-align: right;
+    margin-top: 0;
+        text-align: right;
+}
+.subject{
+    font-weight: bold;
+    font-size: 20px;
+}
+.lunch{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
