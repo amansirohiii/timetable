@@ -1,24 +1,29 @@
-body{
-    background-color: lemonchiffon;
-}
+/* body{
+    background-image: url(https://images.unsplash.com/photo-1521193089946-7aa29d1fe776?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8bGlnaHQlMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+} */
 h1{
     text-align: center;
+    color: black;
 }
-table{
-    margin-top: 50px;
-    border: solid black 5px;
-    width: 850px;
-    border-collapse: collapse;
-}
+
 .tablee{
-    margin-left: auto;
-    margin-right: auto;
+   margin: auto;
+
+    background-color: #fff;
+    border: solid black 5px;
+    border-collapse: collapse;
+    border-radius: 90px ;
+    cursor: pointer;
 }
 td{
     text-align: center;
     border: solid 1px black;
-    height: 50px;
+    height: 60px;
 }
+
 th{
     text-align: center;
     border: solid 1px black;
@@ -26,22 +31,38 @@ th{
 }
 .teacher{
     font-size: 10px;
-    margin-bottom: 0;
+    margin: 0;
+    
     
 }
 th:hover, td:hover{
-    background-color: aquamarine;
+    background-color: rgb(142, 207, 216);
 }
 .room{
     font-size: 10px;
-    margin-top: 0;
-        text-align: right;
+    margin: 0;
+    text-align: right;
 }
 .subject{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
 }
 .lunch{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+}
+
+#subject{
+    font-size: 10px;
+}
+#teacher{
+    font-size: 4px;
+}
+#room{
+    font-size: 4px;
+}
+hr{
+    border: 0.5px solid black;
+    margin: 0;
+    padding: 0;
 }
